@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Diego-Jhon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="form">
+  <h1 id="title">Form Diego-Jhon</h1>
+  <p id="description">This form create by Diego and Jhon for Challenger Microverse</p>
+   <form id="survey-form"> 
+     
+     <label id="name-label">Name: </label><input type="text" id="name" value="Your name" required="required" placeholder="Your Name"> 
+     <label id="email-label">Email: </label><input type="email" id="email" value="Your email" required="required" placeholder="mail@mail.com"> 
+     <label id="age-label">Age: </label><input type="number" id="age" value="23"> 
+     <label id="number-label">Number: </label><input type="number" id="number" min="3" max="11" placeholder="number here"> 
+
+     <label for="Countrys"> Choose your country</label>
+     <select name="countrys" id="select-countrys">
+        <option value="Colombia"></option>
+        <option value="Mexico"></option>
+        <option value="USA"></option>
+        <option value="Peru"></option>
+
+     </select>
+     <p>Would you recomed to work with us?</p>
+     <label><input name="pending" value ='yes-of-course' type="radio">Yes Of Course!</label>
+     <label><input name="pending" value ='might-be' type="radio">Might Be!</label>
+     <label><input name="pending" value ='might-be' type="radio">Only if you pay me well!</label>
+
+     <label for="Why-us"> Why did you choose to work with us?</label>
+     <!--NO value are showing here, pending debugg this-->
+     <select name="Why-us" id="select-why?">
+        <option value="Colombia"></option>
+        <option value="Mexico"></option>
+        <option value="USA"></option>
+        <option value="Peru"></option>
+
+
+     <p>What would you like to improve from us?</p>
+     <label><input type="checkbox" id="cbox1" value="first_checkbox"> improve this</label>
+     <label><input type="checkbox" id="cbox3" value="second_checkbox"> or this</label>
+     <label><input type="checkbox" id="cbox4" value="second_checkbox"> or that</label>
+     <label><input type="checkbox" id="cbox5" value="second_checkbox"> or there</label>
+     <label><input type="checkbox" id="cbox6" value="second_checkbox"> or whatever</label>
+     <label><input type="checkbox" id="cbox7" value="second_checkbox">Nothign, we are perfect!</label>
+
+     <P><label for="suggestions">Any thing else would you like to tell us?</label></P>
+     <textarea name="sugge" id="suggestions" cols="15" rows="10"></textarea>
+     
+
+   </form>
+   <button>Submitte Form</button>
+   </div>
+
+</body>
+</html>
