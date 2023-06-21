@@ -1,0 +1,21 @@
+body {
+    background-color: blueviolet;
+}
+
+
+#survey-form{
+
+    display: flex;
+
+    flex-direction: column;
+    background-color: blue;
+    padding: 10px;
+}
+
+#form {
+    margin: 15%;
+}
+
+#header2 {
+    margin: auto;
+}
